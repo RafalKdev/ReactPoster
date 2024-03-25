@@ -1,9 +1,10 @@
+import PostList from "./components/PostList";
+
 const App = () => {
   return (
-    <>
-      <h1>Hello World</h1>
-      <p>Time to get a job</p>
-    </>
+    <main>
+      <PostList />
+    </main>
   );
 };
 export default App;
